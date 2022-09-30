@@ -7,6 +7,20 @@
   <name>WAR Web Project</name>
   <description>A very simple Maven-enabled WAR web project</description>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+    <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+    <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.3.0</version>
+    </dependency>
+    
   	<dependency>
   		<groupId>com.google.code.gson</groupId>
   		<artifactId>gson</artifactId>
