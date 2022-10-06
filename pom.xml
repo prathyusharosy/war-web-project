@@ -33,6 +33,10 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+   </properties/>
+      <sonar.host.url>http://54.210.254.2:9000/</sonar.host.url>
+		    <sonar.login>admin</sonar.login>
+		    <sonar.password>1234</sonar.password> 
   <build>
     <plugins>
       <plugin>
